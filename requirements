@@ -1,6 +1,7 @@
 Flask
 python-dotenv
-launchdarkly-server-sdk
+launchdarkly-server-sdk>=6.13.3
 flask_wtf
 wtforms
 Flask-Gravatar
+email_validator
