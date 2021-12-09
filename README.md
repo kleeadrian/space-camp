@@ -4,10 +4,6 @@
 
 The space camp project provides guidance on how to easily get started with feature flags on launchdarkly and turning on features for a specific group of users. 
 
-Contents
----
-
-To be filled
 
 
 
