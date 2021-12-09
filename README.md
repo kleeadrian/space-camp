@@ -24,6 +24,7 @@ Note: You can also run this within GitHub Codespaces. No need to perform step 1 
 ### Setup 
 ---
 **DO NOT COMMIT YOUR CODE WITH THE SDK KEY. THIS IS MEANT FOR A LOCAL ENVIRONMENT**
+
 Note: This section requires access to Launchdarkly. Please sign up for a trial at https://launchdarkly.com/start-trial/
 1. Login to your launchdarkly account by going to app.launchdarkly.com
 2. Navigate to Account Settings
@@ -84,14 +85,14 @@ Note: Find a meaningful rollout. Maybe roll it out to users on MAC first, then A
 You can also view the insights of people who have accessed your web app by navigating to the Insights Tab  
 ![image](https://user-images.githubusercontent.com/22606299/145422219-ef2eb7d8-0b6b-4ea7-8460-12741c124d85.png)
 
-### Things to consider in Production
+## Things to consider in Production
 ---
-Integrate it back to your APM to monitor any errors that may show up. A list of [integrations](https://docs.launchdarkly.com/integrations/app-performance) have been created
-Define a workflow and several approvers of each feature flag toggling. 
-Determine what scenarios would require a rollback 
-Define a rollout process by targetting users with specific OS, devices or geographies.
-Keep track of all work items and stories by integrating it back to your [work management system](https://docs.launchdarkly.com/integrations/workflow)
-Use a secret store to store all secrets
-Rotate the keys often. A Guide is available [here](https://docs.launchdarkly.com/home/relay-proxy/automatic-configuration)
-As you add more and more feature flags. It may not become scalable as management of many feature flags may be tough. One idea would be to leverage the terraform provider to create feature flags via a terraform template. Have a [look](https://registry.terraform.io/providers/launchdarkly/launchdarkly/latest/docs/resources/feature_flag) 
-Archive unused flags! 
+- Integrate it back to your APM to monitor any errors that may show up. A list of [integrations](https://docs.launchdarkly.com/integrations/app-performance) have been created
+- Define a workflow and several approvers of each feature flag toggling. 
+- Determine what scenarios would require a rollback 
+- Define a rollout process by targetting users with specific OS, devices or geographies.
+- Keep track of all work items and stories by integrating it back to your [work management system](https://docs.launchdarkly.com/integrations/workflow)
+- Use a secret store to store all secrets
+- Rotate the keys often. A Guide is available [here](https://docs.launchdarkly.com/home/relay-proxy/automatic-configuration)
+- As you add more and more feature flags. It may not become scalable as management of many feature flags may be tough. One idea would be to leverage the terraform provider to create feature flags via a terraform template. Have a [look](https://registry.terraform.io/providers/launchdarkly/launchdarkly/latest/docs/resources/feature_flag) 
+- Archive unused flags! 
