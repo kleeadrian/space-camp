@@ -1,6 +1,6 @@
 Flask
 python-dotenv
-launchdarkly-server-sdk>=6.13.3
+launchdarkly-server-sdk=6.11.3
 flask_wtf
 wtforms
 Flask-Gravatar
