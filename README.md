@@ -34,7 +34,10 @@ Note: This section requires access to Launchdarkly. Please sign up for a trial a
 4. Provide you project a unique name. 
     Note: Good practice is to name your project that serves a group of users. For e.g. Mobile Apps, Desktop Users. In this example, I'll name it space-camp
 5. Click Save
-6. Copy the SDK Key of the Test environment **DO NOT COMMIT YOUR CODE WITH THE SDK KEY. THIS IS MEANT FOR A LOCAL ENVIRONMENT**
+6. Copy the SDK Key of the Test environment 
+
+**DO NOT COMMIT YOUR CODE WITH THE SDK KEY. THIS IS MEANT FOR A LOCAL ENVIRONMENT**
+
 7. <img width="1364" alt="Screen Shot 2021-12-10 at 12 54 14 am" src="https://user-images.githubusercontent.com/22606299/145411020-4bc5e255-c72c-43c2-8a03-0ecd233007e3.png">
 
 8. Open up server.py in the space-camp folder and replace 'LD_SD_KEY' on line 12 with the key you copied Example:
