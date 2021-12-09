@@ -41,6 +41,12 @@ Note: This section requires access to Launchdarkly. Please sign up for a trial a
 
 8. Open up server.py in the space-camp folder and replace 'LD_SD_KEY' on line 12 with the key you copied Example:
     + `ldclient.set_sdk_key(os.getenv('XXXX-XXXXX-XXXXX-XXXXX-XXXXX'))`
+    
+9. Type in the following command in terminal and navigate to http://127.0.0.1:5000 to see the following page
+    + `python3 server.py`
+
+
+![image](https://user-images.githubusercontent.com/22606299/145411817-79e15b42-8b4c-487b-8813-7ffd78861e63.png)
 
 
 
