@@ -40,8 +40,8 @@ Note: This section requires access to Launchdarkly. Please sign up for a trial a
 
 7. <img width="1364" alt="Screen Shot 2021-12-10 at 12 54 14 am" src="https://user-images.githubusercontent.com/22606299/145411020-4bc5e255-c72c-43c2-8a03-0ecd233007e3.png">
 
-8. Open up server.py in the space-camp folder and replace 'LD_SD_KEY' on line 12 with the key you copied Example:
-    + `ldclient.set_sdk_key(os.getenv('XXXX-XXXXX-XXXXX-XXXXX-XXXXX'))`
+8. Open up server.py in the space-camp folder and replace os.getenv('LD_SD_KEY') on line 12 with the key you copied. Example end result:
+    + `ldclient.set_sdk_key('XXXX-XXXXX-XXXXX-XXXXX-XXXXX')`
     
 9. Type in the following command in terminal and navigate to http://127.0.0.1:5000 to see the following page
     + `python3 server.py`
