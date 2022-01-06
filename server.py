@@ -9,7 +9,7 @@ app = Flask(__name__, static_folder='public', template_folder='views')
 app.config['SECRET_KEY'] = 'i❤️space-travel'
 gravatar = Gravatar(app, default='robohash')
 
-ldclient.set_sdk_key(os.getenv('LD_SDK_KEY')) # Set your SDK key in .env
+ldclient.set_sdk_key('LD_SDK_KEY') # Set your SDK key in your local environment
 
 # This will be the actual LaunchDarkly client we use from this point on
 ld_client = ldclient.get()
