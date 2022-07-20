@@ -13,7 +13,7 @@ The space camp project provides guidance on how to easily get started with featu
 Pre-req: Please make sure you have at least Python 3.8 installed 
 
 1. Clone this project back to your local dev environment by running:
-    + `git clone https://github.com/adrian-testorg/space-camp.git`
+    + `git clone https://github.com/kleeadrian/space-camp.git`
 2. Navigate to space-camp folder
     + `cd space-camp`
 3. Install the necessary python dependencies by running
